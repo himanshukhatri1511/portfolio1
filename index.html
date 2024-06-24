@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Himanshu Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,400&display=swap" rel="stylesheet">
+    
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="script.js"></script>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "G0J7ZGJUWCe8FPKw8",
+      });
+   })();
+</script> -->
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-left">
+            <p>&copy; Code by Himanshu</p>
+        </div>
+        <div class="header-right">
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Work</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="hamburger-menu" onclick="toggleMenu()">
+                    &#9776;
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="first">
+        <div>
+            
+            <div class="centered-image">
+                <img class="box" src="Pi7_cropper.png" alt="Himanshu Khatri">
+                <div class="moving-name">Himanshu Khatri</div>
+                
+                <!-- <div class="centered-rectangle">Based in Namma<br> Bengaluru</div> -->
+            <!-- <div class="circle"></div> -->
+            <!-- <div class="globe-icon">🌍</div> -->
+            
+            <!-- <div class="moving-work">
+                <h1>Web-Developer</h1>
+            </div> -->
+        </div>
+        </section>
+        <!-- <div class="separation"></div> -->
+
+        <!-- <section>
+            <div>
+                About
+            </div>
+        </section> -->
+        <section id="about">
+            <h2>About Me</h2>
+                <p>Hello! I am Himanshu Khatri, a passionate developer with a keen interest in embedded systems, web development, and automation. I am currently pursuing my degree in Electronics and Communication Engineering.</p>
+                <p>My journey in the tech world started with a curiosity for how things work, leading me to explore various fields such as IoT, machine learning, and software development. I love taking on new challenges and constantly strive to enhance my skills and knowledge.</p>
+                <!-- <img src="himanshu_about.jpg" alt="Himanshu Khatri"> -->
+           
+            <p>
+                My key skills include:
+                <ul>
+                   
+                    
+                    <img width="200px" height="200px" src="C_Programming_Language.svg" alt="C">
+                    <img width="200px" height="200px" src="C++_Logo.svg" alt="C++">
+                    <img width="200px" height="200px" src="Python-logo-notext.svg" alt="Python">
+                    <img width="200px" height="200px" src="html5-plain.svg" alt="HTML">
+                    <img width="200px" height="200px" src="CSS3_logo.svg" alt="CSS">
+                    <img width="200px" height="200px" src="javascript-logo.svg" alt="Java-Script">
+                    <img width="200px" height="200px" src="java-vertical.svg" alt="Java">
+                    
+                    <img width="200px" height="200px" src="mongodb-logo.svg" alt="mongo-db">
+                    <img width="200px" height="200px" src="nodejs-icon.svg" alt="nodejs">
+                    
+                    <img width="200px" height="200px" src="React-icon.svg" alt="React">
+                    <img width="200px" height="200px" src="Arduino_Logo.svg" alt="Arduino">
+                    <img width="200px" height="200px" src="Raspberry_Pi_Logo.svg" alt="Raspberrry">
+                    
+
+                </ul>
+            
+                <p>In my free time, I enjoy exploring new technologies, participating in dramas. I also enjoy video graphy and video editing.</p>
+            </p>
+            <p>
+                My goal is to continuously improve my skills and contribute to meaningful projects that make a difference. I am always looking for new opportunities to collaborate and create innovative solutions.
+            </p>
+            <p>
+                Feel free to reach out to me through the Contact section. I'm always open to discussing new projects, ideas, or opportunities to work together.
+            </p>
+            <div class="separation"></div>
+        </section>
+        
+
+        
+        <section id="projects">
+            <h2>My Projects</h2>
+            <div class="project">
+                <h3>Advanced Driver Assistance System (ADAS) Implementation</h3>
+                <p>Developed an Advanced Driver Assistance System (ADAS) prototype during the Electronics Circuits Lab project, integrating Raspberry Pi for enhanced functionality. The project focused on real-time object detection and driver fatigue detection to enhance driving safety.</p>
+                <p><strong>Technologies Used:</strong> Arduino, Raspberry Pi, Ultrasonic Sensors, Python, Machine Learning</p>
+                <p><strong>Key Features:</strong></p>
+                <ul>
+                    <li>Object Detection using ultrasonic sensor</li>
+                    <li>Driver Fatigue Detection with camera system and machine learning</li>
+                    <li>Alert System with buzzer</li>
+                </ul>
+                <div class="project-screenshots">
+                    <iframe width="988" height="556" src="https://www.youtube.com/embed/MlApnp0qocY" title="ADAS | Electronic Circuits Lab Final Project" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <p><strong>Reflection:</strong> This project allowed me to integrate hardware and software components to create a practical safety system for vehicles. It enhanced my understanding of sensor integration, real-time data processing, and machine learning applications in embedded systems.</p>
+            </div>
+        
+            <div class="project">
+                <h3>Automatic Plant Watering System Without Arduino</h3>
+                <p>Developed an Automatic Plant Watering System as part of the Analog Circuits Lab project to automate watering based on soil moisture levels. This system addresses the need for efficient water usage in agriculture and landscaping.</p>
+                <p><strong>Technologies Used:</strong> 555 Timer IC, LM358 Op-Amp IC, Soil Moisture Sensors, Analog Circuit Components</p>
+                <p><strong>Key Features:</strong></p>
+                <ul>
+                    <li>Soil Moisture Monitoring with sensors</li>
+                    <li>Automated Watering based on moisture levels</li>
+                    <li>Component Integration with transistors, resistors, capacitors, potentiometers, LEDs, and relay modules</li>
+                </ul>
+                <div class="project-screenshots">
+                    <iframe width="988" height="556" src="https://www.youtube.com/embed/b9_Rvw3dGdM" title="Automatic Plant Watering System" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <p><strong>Reflection:</strong> This project provided hands-on experience in analog circuit design and implementation. It allowed me to create a practical and sustainable solution for automated plant watering, enhancing my skills in sensor integration and circuit design.</p>
+            </div>
+        
+            <div class="project">
+                <h3>Gym Website Development | HTML, CSS, JavaScript</h3>
+                <p>Developed a responsive and visually appealing website for Himanshu Fitness, aiming to attract new members to join the best gym in Delhi. The project was executed using HTML, CSS, and JavaScript to ensure a seamless user experience across various devices.</p>
+                <p><strong>Technologies Used:</strong> HTML, CSS, JavaScript</p>
+                <p><strong>Key Features:</strong></p>
+                <ul>
+                    <li>Responsive Design</li>
+                    <li>Interactive Form</li>
+                    <li>Navigation Bar</li>
+                    <li>Call-to-Action Buttons</li>
+                    <li>Visual Appeal</li>
+                    <li>Accessibility</li>
+                </ul>
+                <div class="project-screenshots">
+                    <img src="himanshu.png" alt="Gym and Fitness">
+                </div>
+                <p><strong>Reflection:</strong> The Himanshu Fitness website successfully attracted new members by providing a professional, easy-to-navigate platform that highlights the gym's offerings and facilitates user interaction. The project demonstrated proficiency in front-end web development, emphasizing responsive design, user experience, and effective lead generation.</p>
+            </div>
+            <div class="separation"></div>
+        </section>
+        
+
+        
+        <section id="contact">
+            <div class="contact-content">
+                <h1>Let's start a project together</h1>
+                <form onsubmit="sendEmail(); reset(); return false;">
+                    <div class="form-group">
+                        <label for="name">What's your name?</label>
+                        <input type="text" id="name" class="form-control" name="name" placeholder="John Doe" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">What's your email?</label>
+                        <input type="email" id="email" class="form-control" name="email" placeholder="john@doe.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="3" placeholder="Write your message here" class="form-control" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-button">Send Message</button>
+                </form>
+                <div class="contact-info">
+                    <img src="contact.png" class="profile-photo" alt="Profile Photo">
+                    <div class="info">
+                        <p>Email: <a href="mailto:Himanshu.Khatri@iiitb.ac.in">Himanshu.Khatri@iiitb.ac.in</a></p>
+                        <p>Phone: +91 9784543553</p>
+                        <p>LinkedIn: <a href="https://www.linkedin.com/in/himanshu-khatri-155658210/" target="_blank">Himanshu Khatri</a></p>
+                        <p>GitHub: <a href="https://github.com/himanshukhatri1511" target="_blank">himanshukhatri1511</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="separation"></div>
+        </section>
+        
+    </main>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+        function sendEmail(){
+            Email.send({
+                SecureToken: "45098333-444c-458f-9192-aa0d85d6aa78",
+                To : 'khatrihim2020@gmail.com',
+                From : document.getElementById("email").value,
+                Subject : "New Contact Form Enquiry",
+                Body : "Name: " + document.getElementById("name").value
+                        + "<br> Email: " + document.getElementById("email").value
+                        + "<br> Message: " + document.getElementById("message").value
+            }).then(
+                message => alert("Message Sent Successfully")
+            );
+        }
+        function toggleMenu() {
+            const navLinks = document.querySelector('.nav-links');
+            navLinks.classList.toggle('active');
+        }
+    </script>
+    <!-- <script>
+        var style = document.createElement('style');
+        var position = 'right';
+
+        style.innerHTML=`
+        @keyframes my-animation{
+        0%{${position}:-${document.querySelector('.moving-name').offsetWidth + 10}px;}
+        100%{${position}: 100%;}
+        }`;
+    </script> -->
+</body>
+</html>
